@@ -1,6 +1,5 @@
 provider "google"{
     project = "refreshing-oven-432114-i0"
-    region  = "us-central1"
 }
 
 module "rt-bucket" {
@@ -8,7 +7,7 @@ module "rt-bucket" {
   version = "0.0.2"
   # insert required variables here
   bucket_name     = "rt-bucket-practicee"
-  bucket_location = "US"
+  bucket_location = "us-central1"
   storage         = "STANDARD"
 }
 
