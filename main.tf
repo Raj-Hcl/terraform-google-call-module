@@ -5,7 +5,7 @@ provider "google"{
 
 module "rt-bucket" {
   source  = "app.terraform.io/db-trial/rt-bucket/google"
-  version = "0.0.1"
+  version = "0.0.2"
   # insert required variables here
   bucket_name     = "terraform-google-rt-bucket"
   bucket_location = "US"
