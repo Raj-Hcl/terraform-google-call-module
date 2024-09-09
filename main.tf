@@ -11,3 +11,7 @@ module "rt-bucket" {
   bucket_location = "US"
   storage         = "STANDARD"
 }
+
+variable "GOOGLE_CREDENTIALS" {
+    type = string
+}
